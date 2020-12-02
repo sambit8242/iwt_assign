@@ -47,7 +47,7 @@ video{
     display: flex;
 }
 
-.main__controls__buttons
+.main__controls__button
 {
     display: flex;
     flex-direction: column;
@@ -56,4 +56,13 @@ video{
     padding: 8px 10px;
     min-width: 80px;
     cursor: pointer;
+}
+
+.main__controls__button i{
+    font-size:24px;
+}
+
+.main__controls__button:hover {
+    background-color: #343434;
+    border-radius: 5px;
 }
